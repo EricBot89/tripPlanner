@@ -8,3 +8,4 @@ const map = new mapboxgl.Map({
   zoom: 12, // starting zoom
   style: "mapbox://styles/mapbox/streets-v10" // mapbox has lots of different map styles available.
 });
+const maker = new mapboxgl.Marker().setLngLat([-74.009151, 40.705086]).addTo(map);
